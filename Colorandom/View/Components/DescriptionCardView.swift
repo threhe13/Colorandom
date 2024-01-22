@@ -45,7 +45,7 @@ struct DescriptionCardView: View {
                 }
                 
                 VStack(alignment: .leading, spacing: 8) {
-                    Text("HSL")
+                    Text("HSB")
                         .font(.headline)
                     
                     Text(palette.getHSBValue().toString())
